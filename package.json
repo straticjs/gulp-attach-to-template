@@ -4,7 +4,6 @@
   "description": "Take a stream of Stratic posts and attach them to a post page template",
   "main": "index.js",
   "dependencies": {
-    "es7-array.prototype.includes": "^2.0.0",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
   },
