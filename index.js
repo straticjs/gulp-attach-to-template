@@ -44,13 +44,13 @@ module.exports = function(template, options) {
 
 		templateFile.data = templateFile.data || {};
 
-		files.forEach(function(post) {
-			var file = templateFile.clone();
+		files.forEach(function(file) {
+			var newFile = templateFile.clone();
 
-			file.data.post = post;
-			file.path = post.path;
+			newFile.data.file = file;
+			newFile.path = file.path;
 
-			this.push(file);
+			this.push(newFile);
 		}, this);
 
 		callback();

@@ -1,7 +1,7 @@
 {
-  "name": "stratic-posts-to-post-pages",
+  "name": "gulp-attach-to-template",
   "version": "1.0.0",
-  "description": "Take a stream of Stratic posts and attach them to a post page template",
+  "description": "Take a stream of Vinyl files and attach them to a template",
   "main": "index.js",
   "dependencies": {
     "gulp-util": "^3.0.7",
@@ -12,16 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strugee/stratic-posts-to-post-pages.git"
+    "url": "https://github.com/strugee/gulp-attach-to-template.git"
   },
   "keywords": [
-    "stratic",
+    "template",
+    "vinyl",
+    "attach",
     "gulpplugin"
   ],
   "author": "Alex Jordan <alex@strugee.net>",
   "license": "LGPL-3.0+",
   "bugs": {
-    "url": "https://github.com/strugee/stratic-posts-to-post-pages/issues"
+    "url": "https://github.com/strugee/gulp-attach-to-template/issues"
   },
-  "homepage": "https://github.com/strugee/stratic-posts-to-post-pages"
+  "homepage": "https://github.com/strugee/gulp-attach-to-template"
 }
