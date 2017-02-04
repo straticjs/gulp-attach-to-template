@@ -1,5 +1,7 @@
 # `gulp-attach-to-template`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/straticjs/gulp-attach-to-template.svg)](https://greenkeeper.io/)
+
 [gulp][1] plugin to take a stream of Vinyl files and attach them to a template
 
 ## Why?
