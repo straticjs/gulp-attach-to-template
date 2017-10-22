@@ -66,7 +66,7 @@ LGPL 3.0+
 
 ## Author
 
-Alex Jordan <alex@strugee.net>
+AJ Jordan <alex@strugee.net>
 
  [1]: http://gulpjs.com/
  [2]: https://www.npmjs.com/package/gulp-apply-template/
