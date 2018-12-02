@@ -10,7 +10,7 @@ This module is very similar to the excellent [`gulp-apply-template`][2]. It diff
 2. Its usage is simpler
 3. It doesn't use [consolidate.js][3] and instead expects you to render templates yourself (this also means it pulls the template from the file stream instead of reading it directly, which is a \[admittedly widespread] [gulp antipattern][4])
 
-These items are a matter of personal preference, to varying degrees. Feel free to use `gulp-apply-template` if you think that style is more readable.
+These items are a matter of personal preference, to varying degrees. Feel free to use `gulp-apply-template` if you think that style is more readable, although be aware that `gulp-apply-template` [appears to be unmaintained](https://github.com/straticjs/gulp-attach-to-template/issues/4).
 
 ## Installation
 
