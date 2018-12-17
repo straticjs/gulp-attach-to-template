@@ -17,7 +17,6 @@
 
 var path = require('path');
 var through2 = require('through2');
-var gutil = require('gulp-util');
 
 module.exports = function(template, options) {
 	if (typeof template !== 'string') throw new Error('template not specified');

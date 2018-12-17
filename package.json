@@ -4,7 +4,6 @@
   "description": "Take a stream of Vinyl files and attach them to a template",
   "main": "index.js",
   "dependencies": {
-    "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
   },
   "scripts": {
